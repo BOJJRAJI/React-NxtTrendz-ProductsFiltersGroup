@@ -156,15 +156,13 @@ class AllProductsSection extends Component {
     ) : (
       <div className="products-error-view-container">
         <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-products-error-view.png"
-          alt="products failure"
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png"
+          alt="no products"
           className="products-failure-img"
         />
-        <h1 className="product-failure-heading-text">
-          Oops! Something Went Wrong
-        </h1>
+        <h1 className="product-failure-heading-text">No Products Found</h1>
         <p className="products-failure-description">
-          We are having some trouble processing your request. Please try again.
+          We could not find any products. Try other filters.
         </p>
       </div>
     )
